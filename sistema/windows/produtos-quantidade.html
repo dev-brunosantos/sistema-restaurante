@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Para Restaurantes</title>
+
+    <link rel="stylesheet" href="../styles/style.css">
+
+</head>
+<body>
+
+    <div class="container centralizar">
+        <div class="menu">
+            <button class="voltar">
+                <a href="./produtos.html">voltar</a>
+            </button>
+        </div>
+
+        <div class="informacoes-produto centralizar">
+            <h1 id="produtoNome">Nome do Produto</h1>
+
+            <button class="btn" id="btn-adicionar " data-btn-adicionar >Adicionar</button>
+        </div>
+
+        <div class="menu-quantidade centralizar">
+            <div class="quantidade-num quantidade-infor centralizar">
+                <label class="quantidade-valor quantidade-label" for="quantidade-valor">Quantidade</label>
+                <p class="quantidade-valor quantidade-p" id="quantidade-valor">0</p>
+            </div>
+            
+            <div class="quantidade-preco quantidade-infor centralizar">
+                <p class="quantidade-p"> R$ 29,90</p>
+            </div>
+            
+            <div class="quantidade-btn quantidade-infor centralizar">
+                <button class="btn-quantidade mais centralizar" data-quantidade-btn centralizar="+">+</button>
+                <button class="btn-quantidade menos centralizar" data-quantidade-btn="-">-</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

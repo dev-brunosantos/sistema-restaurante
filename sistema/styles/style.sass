@@ -1,0 +1,27 @@
+@import './config/_configuracoes'
+@import './config/_largura-altura'
+
+body
+    width: 100vw
+    height: 100vh
+    background: url(../img/fundo2.jpg) 
+.inicio
+    @include altura-largura()
+    justify-content: center
+    .logomarca
+        width: 70%
+        height: 40% 
+        border-radius: 20px
+        box-shadow: 0px 5px 40px yellow
+    .continuar
+        margin: 3rem 0
+        border-radius: 10px
+        padding: 10px
+        font-size: 1.5rem
+        font-weight: bold
+        text-transform: uppercase
+
+@import './_usuarios'
+@import './mesas'
+@import './_produtos'
+@import './_produtos-quantidade'
